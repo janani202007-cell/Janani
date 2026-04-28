@@ -1,0 +1,55 @@
+.about-body {
+  background: url('https://img.freepik.com/premium-photo/book-library-with-old-open-textbook-stack-piles-literature-text-archive-reading-desk_779468-5822.jpg?w=826');
+  backdrop-filter: blur(10px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+/* CONTENT */
+.content {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20%;
+  color: white;
+}
+
+.content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.content p {
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: bold;
+  color: white;
+}
+ 
+.h2{
+  color:white;
+  font-size:30px;
+}
+/* HEADER */
+.navbar h2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* BACK BUTTON */
+.back {
+  text-align: center;
+}
+
+.back a {
+  color: aqua;
+  text-decoration: none;
+  font-size: 20px;
+}

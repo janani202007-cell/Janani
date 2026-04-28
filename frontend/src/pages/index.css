@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7f6;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #2c3e50;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links span {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.nav-links span:hover {
+  color: #3498db;
+}
+
+/* LOGIN PAGE */
+.login-page {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url("https://thedesignconcept.co.uk/media/34502/mediatheque_saint-quentin_public_library_fr_022.png") no-repeat center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.login-box {
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.login-box input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-box button {
+  padding: 10px;
+  width: 100%;
+  background: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* MAIN CONTAINER */
+.container {
+  padding: 20px;
+}
+
+/* PROFILE */
+.profile {
+  background: linear-gradient(to right, #2c3e50, #3498db);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* SEARCH */
+.search {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background: #ecf0f1;
+}
+
+/* BUTTONS */
+.reserve-btn {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.action-btn {
+  background: #ddd;
+  border: none;
+  padding: 6px 12px;
+}
+
+/* ALERT */
+.alert {
+  background: #fdecea;
+  color: red;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-left: 5px solid red;
+}
+
+/* RECOMMEND BOX */
+.recommend-box {
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.recommend-box input,
+.recommend-box select,
+.recommend-box textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
